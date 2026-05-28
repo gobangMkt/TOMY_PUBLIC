@@ -36,14 +36,20 @@ npx skills add gobangMkt/tommy-process --all -g
 npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max -g
 ```
 
-### 4. 플러그인 설치 (스킬을 포함한 플러그인)
+### 4. 추가 스킬 설치
 
-`frontend-design`과 `superpowers`는 플러그인 안에 스킬이 담긴 형태입니다.
-Claude Code에서 `/plugin` 실행 후 검색하여 설치하면 스킬이 자동 활성화됩니다.
+```bash
+# 4단계 프론트엔드 디자인
+npx skills add anthropics/skills --skill frontend-design -g
 
-- `superpowers` — 설치 시 `superpowers:subagent-driven-development` 등 스킬 활성화
-- `frontend-design` — 설치 시 `frontend-design:frontend-design` 스킬 활성화
-- `github` / `playwright` / `figma` — MCP 연동 (개인 API 키 필요)
+# 4단계 서브에이전트 기반 개발 (superpowers 전체 설치)
+npx skills add obra/superpowers -g
+```
+
+### 5. 플러그인 설치
+
+Claude Code에서 `/plugin` 실행 후 설치 (개인 API 키 필요):
+- `github` / `playwright` / `figma` — MCP 연동
 
 ---
 
