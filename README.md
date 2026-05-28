@@ -41,7 +41,6 @@ npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max -g
 
 Claude Code에서 `/plugin` 실행 후 설치:
 - `superpowers` — 4단계 서브에이전트 기반 개발
-- `github` / `playwright` / `figma` — MCP 연동 (개인 API 키 필요)
 
 ---
 
