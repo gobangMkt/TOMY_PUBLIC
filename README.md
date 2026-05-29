@@ -1,21 +1,16 @@
 # tomy-process
 
 고방 마케팅 AI 개발 프로세스 패키지.
-클론 후 스킬 설치하면 팀 전체가 동일한 개발 파이프라인을 사용할 수 있습니다.
 
 ---
 
 ## 세팅 방법
 
-### 1. 이 레포 클론
+### 1. CLAUDE.md 프로젝트에 넣기
 
-```bash
-git clone https://github.com/gobangMkt/tomy-process
-```
+전달받은 `CLAUDE.md`를 작업할 프로젝트 루트에 복사합니다.
 
-클론한 폴더에서 Claude Code를 열면 `CLAUDE.md`가 자동으로 적용됩니다.
-
-### 2. 스킬 설치 (한 방)
+### 2. 스킬 설치
 
 ```bash
 npx skills add gobangMkt/tomy-process --all -g
@@ -34,20 +29,3 @@ npx skills add gobangMkt/tomy-process --all -g
 
 Claude Code에서 `/plugin` 실행 후 설치:
 - `superpowers` — 4단계 서브에이전트 기반 개발
-
----
-
-## 포함된 것
-
-```
-tomy-process/
-├── CLAUDE.md
-├── grill-me/SKILL.md
-├── tdd/SKILL.md
-├── to-issues/SKILL.md
-├── frontend-design/SKILL.md
-├── ui-ux-pro-max/SKILL.md
-└── icon-design/
-    ├── SKILL.md
-    └── references/icon-style.md
-```
