@@ -68,13 +68,13 @@ if (Test-Path $settingsPath) {
 if (-not $settings.ContainsKey('hooks')) { $settings['hooks'] = @{} }
 
 $cmdStop = "powershell -WindowStyle Hidden -File `"$notify`" stop"
-$cmdInput = "powershell -WindowStyle Hidden -File `"$notify`" input"
 $settings['hooks']['Stop'] = @(@{ hooks = @(@{ type = 'command'; command = $cmdStop; async = $true }) })
-$settings['hooks']['Notification'] = @(@{ hooks = @(@{ type = 'command'; command = $cmdInput; async = $true }) })
+# 입력 대기(Notification) 알림은 쓰지 않음 — 기존에 등록돼 있으면 제거
+if ($settings['hooks'].ContainsKey('Notification')) { [void]$settings['hooks'].Remove('Notification') }
 
 $json = $settings | ConvertTo-Json -Depth 20
 [System.IO.File]::WriteAllText($settingsPath, $json, (New-Object System.Text.UTF8Encoding $false))
-Write-Host '  hook 등록 완료 (Stop / Notification)'
+Write-Host '  hook 등록 완료 (Stop)'
 
 # 4) 부팅 자동실행 등록 (Startup 폴더, UTF-16 + VBScript 따옴표 이스케이프)
 $startupVbs = Join-Path ([Environment]::GetFolderPath('Startup')) 'Claude알림트레이.vbs'

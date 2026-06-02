@@ -1,6 +1,6 @@
 # Claude Code 작업 완료 알림
 
-Claude Code(CLI)가 **작업을 끝내거나 입력을 기다릴 때** Windows 토스트 알림을 띄워줍니다.
+Claude Code(CLI)가 **작업을 끝냈을 때** Windows 토스트 알림을 띄워줍니다.
 다른 창을 보고 있어도 작업이 끝난 걸 바로 알 수 있습니다.
 
 - 토스트는 **3초 뒤 자동으로 닫힘**
@@ -46,11 +46,11 @@ ON/OFF 상태는 저장되어 **재부팅해도 유지**됩니다. 항상 켜두
 ## ⚙️ 작동 원리
 
 ```
-Claude Code 작업 끝남 / 입력 대기
-        │  (Stop · Notification 이벤트)
+Claude Code 작업 끝남
+        │  (Stop 이벤트)
         ▼
    settings.json 의 hook
-   "powershell -Hidden notify.ps1 stop|input"   ← 창 없이 백그라운드
+   "powershell -Hidden notify.ps1 stop"   ← 창 없이 백그라운드
         │
         ▼
    notify.ps1
