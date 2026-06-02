@@ -81,3 +81,20 @@ Claude Code에서 `/plugin` 입력 → `superpowers` 선택 후 설치
 ```
 
 Claude Code에서 `/skills`를 입력하면 현재 설치된 스킬 목록을 볼 수 있습니다.
+
+---
+
+## 도구 (Tools)
+
+스킬과 별개로, 이 레포에는 바로 쓸 수 있는 유틸리티가 폴더로 들어 있습니다. 새 도구가 생기면 **폴더만 추가**되므로 레포는 하나로 유지됩니다.
+
+### 🔔 claude-notify — 작업 완료 알림 (Windows)
+
+Claude Code가 작업을 끝내거나 입력을 기다릴 때 **Windows 토스트 알림**을 띄웁니다. 3초 후 자동 닫힘, 트레이 아이콘으로 ON/OFF, 부팅 시 자동 실행.
+
+**설치** (Windows 전용):
+1. 이 레포를 클론합니다. `git clone https://github.com/gobangMkt/tomy-process` (이미 있으면 `git pull`)
+2. `claude-notify` 폴더의 **`설치.bat`** 더블클릭
+3. 범위 선택 (`1` 전역 / `2` 이 프로젝트만)
+
+자세한 사용법·문제해결은 [`claude-notify/README.md`](claude-notify/README.md) 참고. 제거는 `claude-notify/제거.bat`.
