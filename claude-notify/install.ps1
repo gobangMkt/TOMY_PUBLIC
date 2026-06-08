@@ -5,6 +5,7 @@ $ErrorActionPreference = 'Stop'
 $here = $PSScriptRoot
 $notify = Join-Path $here 'notify.ps1'
 $tray = Join-Path $here 'notify-tray.ps1'
+$focus = Join-Path $here 'focus.ps1'
 
 Write-Host ''
 Write-Host '=== Claude Code 알림 설치 ===' -ForegroundColor Cyan
@@ -27,7 +28,7 @@ function ConvertTo-Hashtable {
 
 # 1) BOM 방어 적용 (PS5.1은 BOM 없는 .ps1을 CP949로 읽어 한글 깨짐)
 $utf8bom = New-Object System.Text.UTF8Encoding $true
-foreach ($f in @($notify, $tray)) {
+foreach ($f in @($notify, $tray, $focus)) {
   if (-not (Test-Path $f)) { throw "필수 파일 없음: $f — repo를 다시 클론하세요." }
   $b = [System.IO.File]::ReadAllBytes($f)
   $hasBom = $b.Length -ge 3 -and $b[0] -eq 239 -and $b[1] -eq 187 -and $b[2] -eq 191
@@ -75,6 +76,16 @@ if ($settings['hooks'].ContainsKey('Notification')) { [void]$settings['hooks'].R
 $json = $settings | ConvertTo-Json -Depth 20
 [System.IO.File]::WriteAllText($settingsPath, $json, (New-Object System.Text.UTF8Encoding $false))
 Write-Host '  hook 등록 완료 (Stop)'
+
+# 3.5) 알림 클릭 → 해당 창 전면화용 protocol(claude-notify://) 등록 (HKCU, 관리자 불필요)
+$proto = 'HKCU:\Software\Classes\claude-notify'
+$cmdKey = "$proto\shell\open\command"
+New-Item -Path $cmdKey -Force | Out-Null
+Set-ItemProperty -Path $proto -Name '(default)' -Value 'URL:Claude Notify Focus'
+Set-ItemProperty -Path $proto -Name 'URL Protocol' -Value ''
+$focusCmd = "powershell -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$focus`" `"%1`""
+Set-ItemProperty -Path $cmdKey -Name '(default)' -Value $focusCmd
+Write-Host '  알림 클릭 핸들러 등록 완료 (claude-notify://)'
 
 # 4) 부팅 자동실행 등록 (Startup 폴더, UTF-16 + VBScript 따옴표 이스케이프)
 $startupVbs = Join-Path ([Environment]::GetFolderPath('Startup')) 'Claude알림트레이.vbs'
