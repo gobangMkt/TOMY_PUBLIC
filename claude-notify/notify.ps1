@@ -1,8 +1,18 @@
 ﻿param([string]$Kind = 'stop')
 
+# [디버그] 훅 발화/경로 확인용 로그 — 진단 후 제거 예정
+try {
+  $dbg = Join-Path $PSScriptRoot 'notify.log'
+  $ts = (Get-Date).ToString('HH:mm:ss')
+  Add-Content -Path $dbg -Value "$ts ENTER kind=$Kind pwd=$((Get-Location).Path)" -Encoding UTF8
+} catch {}
+
 # 토글 게이트: 같은 폴더의 notify.flag 가 있을 때만 알림 발송
 $flag = Join-Path $PSScriptRoot 'notify.flag'
-if (-not (Test-Path $flag)) { return }
+if (-not (Test-Path $flag)) {
+  try { Add-Content -Path (Join-Path $PSScriptRoot 'notify.log') -Value "$ts GATE-OFF (flag 없음)" -Encoding UTF8 } catch {}
+  return
+}
 
 # 1) 작업 폴더(cwd) 추출 — stdin payload 우선, 없으면 실행 디렉토리/환경변수로 폴백
 $folder = $null
@@ -23,6 +33,9 @@ $Message = switch ($Kind) {
   'input' { '입력을 기다리고 있습니다.' }
   default { '작업이 완료되었습니다.' }
 }
+# 매번 같은 텍스트면 Windows 가 중복 알림으로 보고 배너를 억제(센터에만 추가)한다.
+# 메시지에 시각을 붙여 내용을 매번 다르게 만들어 배너가 항상 뜨도록 한다.
+$Message = "$Message  ($((Get-Date).ToString('HH:mm:ss')))"
 
 # 2) 이 hook 이 붙어 있는 Windows Terminal 창의 HWND 찾기
 #    GetConsoleWindow 는 화면에 안 보이는 pseudo-console 핸들을 주므로,
@@ -73,10 +86,14 @@ $xml = New-Object Windows.Data.Xml.Dom.XmlDocument
 $xml.LoadXml("<toast$launch><visual><binding template=`"ToastGeneric`"><text>$safeFolder</text><text>$safeMsg</text></binding></visual></toast>")
 
 $toast = [Windows.UI.Notifications.ToastNotification]::new($xml)
+# 매번 동일한 텍스트("작업이 완료되었습니다")라 Windows 가 중복으로 보고
+# 배너를 억제(알림 센터에만 추가)한다. 고유 Tag 를 부여해 매번 새 알림으로
+# 인식시켜 배너가 뜨도록 강제한다.
+try { $toast.Tag = [Guid]::NewGuid().ToString('N').Substring(0, 16) } catch {}
 $appId = '{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\powershell.exe'
 $notifier = [Windows.UI.Notifications.ToastNotificationManager]::CreateToastNotifier($appId)
+try { Add-Content -Path (Join-Path $PSScriptRoot 'notify.log') -Value "$ts SHOW setting=$($notifier.Setting) hwnd=$hwnd folder=$folder" -Encoding UTF8 } catch {}
 $notifier.Show($toast)
 
-# 3초 뒤 자동 닫힘 (클릭 처리는 focus.ps1 가 독립적으로 담당하므로 여기서 끝나도 됨)
-Start-Sleep -Seconds 3
-$notifier.Hide($toast)
+# 자동 닫기 안 함: 배너를 놓쳐도 알림 센터(Win+N)에 남도록 둔다.
+# (클릭 처리는 focus.ps1 가 protocol 로 독립 처리)
