@@ -17,7 +17,13 @@ if (-not (Test-Path $flag)) {
 # 1) 작업 폴더(cwd) 추출 — stdin payload 우선, 없으면 실행 디렉토리/환경변수로 폴백
 $folder = $null
 $raw = ''
-try { $raw = [Console]::In.ReadToEnd() } catch {}
+# stdin 은 UTF-8 로 들어온다. 콘솔 코드페이지(한국어=CP949)에 의존하는
+# [Console]::In.ReadToEnd() 는 한글을 깨뜨리므로, 원시 바이트를 UTF-8 로 직접 읽는다.
+try {
+  $reader = New-Object System.IO.StreamReader([Console]::OpenStandardInput(), [System.Text.Encoding]::UTF8)
+  $raw = $reader.ReadToEnd()
+  $reader.Dispose()
+} catch {}
 try {
   if ($raw -and $raw.Trim()) {
     $data = $raw | ConvertFrom-Json
@@ -37,40 +43,33 @@ $Message = switch ($Kind) {
 # 메시지에 시각을 붙여 내용을 매번 다르게 만들어 배너가 항상 뜨도록 한다.
 $Message = "$Message  ($((Get-Date).ToString('HH:mm:ss')))"
 
-# 2) 이 hook 이 붙어 있는 Windows Terminal 창의 HWND 찾기
-#    GetConsoleWindow 는 화면에 안 보이는 pseudo-console 핸들을 주므로,
-#    콘솔 제목에 잠깐 고유 마커를 심고 EnumWindows 로 진짜 WT 창을 역추적한다.
+# 2) 이 hook 을 띄운 터미널(WindowsTerminal/conhost/VSCode 등) 창의 HWND 찾기.
+#    hook 은 -WindowStyle Hidden 으로 도는 별도 프로세스라 자기 콘솔 제목을
+#    바꿔도 사용자가 보는 터미널 창 제목엔 영향이 없다(=마커 추적 실패).
+#    대신 부모 프로세스 체인(notify.ps1 → claude → shell → 터미널)을 거슬러
+#    올라가, '보이는 메인 창'을 가진 첫 조상의 HWND 를 쓴다.
 $hwnd = 0
 try {
   Add-Type -Namespace CN -Name Win -MemberDefinition @'
-[DllImport("kernel32.dll", CharSet=CharSet.Unicode)] public static extern bool SetConsoleTitle(string t);
-[DllImport("kernel32.dll", CharSet=CharSet.Unicode)] public static extern uint GetConsoleTitle(System.Text.StringBuilder s, uint n);
-public delegate bool EnumProc(System.IntPtr h, System.IntPtr p);
-[DllImport("user32.dll")] public static extern bool EnumWindows(EnumProc cb, System.IntPtr p);
-[DllImport("user32.dll", CharSet=CharSet.Unicode)] public static extern int GetWindowText(System.IntPtr h, System.Text.StringBuilder s, int n);
 [DllImport("user32.dll")] public static extern bool IsWindowVisible(System.IntPtr h);
 '@
-  $oldTitle = New-Object System.Text.StringBuilder 1024
-  [CN.Win]::GetConsoleTitle($oldTitle, 1024) | Out-Null
-
-  $marker = '§CN:' + ([Guid]::NewGuid().ToString('N').Substring(0, 12))
-  [CN.Win]::SetConsoleTitle($marker) | Out-Null
-  Start-Sleep -Milliseconds 180
-
-  $found = [ref]([IntPtr]::Zero)
-  $cb = [CN.Win+EnumProc] {
-    param($h, $p)
-    if (-not [CN.Win]::IsWindowVisible($h)) { return $true }
-    $sb = New-Object System.Text.StringBuilder 1024
-    [CN.Win]::GetWindowText($h, $sb, 1024) | Out-Null
-    if ($sb.ToString() -eq $marker) { $found.Value = $h; return $false }
-    return $true
+  $parentOf = @{}
+  foreach ($p in (Get-CimInstance Win32_Process -Property ProcessId, ParentProcessId)) {
+    $parentOf[[int]$p.ProcessId] = [int]$p.ParentProcessId
   }
-  [CN.Win]::EnumWindows($cb, [IntPtr]::Zero) | Out-Null
-  $hwnd = $found.Value.ToInt64()
-
-  # 콘솔 제목 원복 (마커 흔적 제거)
-  [CN.Win]::SetConsoleTitle($oldTitle.ToString()) | Out-Null
+  $cur = $PID
+  $seen = @{}
+  for ($i = 0; $i -lt 14; $i++) {
+    if (-not $parentOf.ContainsKey([int]$cur)) { break }
+    $ppid = $parentOf[[int]$cur]
+    if ($ppid -le 0 -or $seen.ContainsKey($ppid)) { break }
+    $seen[$ppid] = $true
+    try {
+      $h = (Get-Process -Id $ppid -ErrorAction Stop).MainWindowHandle
+      if ($h -ne [IntPtr]::Zero -and [CN.Win]::IsWindowVisible($h)) { $hwnd = $h.ToInt64(); break }
+    } catch {}
+    $cur = $ppid
+  }
 } catch {}
 
 # 3) 토스트 발송. 클릭 시 protocol(claude-notify://) 로 focus.ps1 가 해당 창을 전면화.
