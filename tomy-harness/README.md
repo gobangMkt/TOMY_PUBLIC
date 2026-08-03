@@ -66,6 +66,21 @@ npx skills add https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
 ! npx skills add gobangMkt/TOMY_PUBLIC --skill qa-full-cycle
 ```
 
+#### service-master — 디자인팀장 · 개발팀장 (이 레포 전용 커스텀 스킬)
+```
+! npx skills add gobangMkt/TOMY_PUBLIC --skill service-master
+```
+사내에서 실제로 굴러본 UI/UX 판단 기준과 개발 원칙이 들어 있습니다. 설치하면 Claude에게 두 명의 팀장을 불러 리뷰를 받을 수 있습니다.
+
+| 이렇게 부르면 | 이런 걸 봅니다 |
+|---|---|
+| `디자인팀장 호출` (= UX팀장·디자인가이드, 같은 사람) | 화면 평가, 시선 흐름·인지부하·어포던스, 컨트롤 어휘 일관성, 다크패턴 경계 |
+| `개발팀장 호출` | 코드·아키텍처·성능, 외부연동/데이터 정합(결제·알림톡·웹훅), LLM 기능 설계, 알림·관측 |
+
+- 예시: `이 화면 디자인팀장 호출해서 평가받아줘` / `개발팀장 관점에서 이 코드 봐줘`
+- 평가·진단만 하고 코드는 바로 안 고칩니다. 수정은 안을 제시받고 컨펌한 뒤 진행됩니다.
+- 두 팀장은 **별개 인격**입니다. 디자인과 구현이 동시에 걸린 문제면 둘 다 호출해 각자 판단을 받으세요.
+
 #### superpowers
 Claude Code에서 `/plugin` 입력 → `superpowers` 선택 후 설치
 
