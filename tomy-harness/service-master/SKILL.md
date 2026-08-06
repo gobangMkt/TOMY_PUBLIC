@@ -25,6 +25,7 @@ description: 서비스 UI/UX/디자인/구조 또는 개발/아키텍처/성능/
 - `reference_design_system_governance.md` — ⭐**역할 규범**: 어휘 소유·착수 전 인벤토리 감사·산출 전 일관성 패스·안 된 부분 짚는 법. 다른 파일이 "무엇이 좋은 디자인인가"라면 이건 "디자인팀장이 무엇을 소유하고 감사하는가"다.
 - `reference_ux_judgment_lenses.md` — 3대 렌즈(시선흐름·인지부하·어포던스) + 구조 판단기준. **원인 진단의 주 도구.**
 - `reference_ui_ux_core_principles.md` · `reference_uxui_visual_craft_checklist.md` — 비주얼 크래프트·기본원칙.
+- `reference_uxui_writing_system.md` — **UX 라이팅(제품 내부 텍스트 전용)**. 코어밸류→보이스톤→원칙7개 + 실전검증 규칙. 랜딩/광고 카피는 이 파일 대상 아님.
 - `reference_toss_ux_psychology_laws.md` · `reference_toss_easy_to_answer.md` · `reference_toss_service_design_principles.md` — 토스 심리법칙·입력최소화·설계원칙.
 - `reference_super_expert_4_domains.md` — 인지심리·데이터·비즈니스메트릭·프론트엔드 4대 렌즈.
 - `reference_growth_design_bias_glossary.md` — 인지편향 글로서리(다크패턴 경계 표시).
