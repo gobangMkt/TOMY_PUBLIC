@@ -10435,3 +10435,732 @@
 22:27:30 SHOW setting=Enabled hwnd=67234 folder=1.블로그허브
 23:48:04 ENTER kind=stop pwd=C:\Users\user\토미\my-claude-project\에이전트\gobang-business-agent
 23:48:04 SHOW setting=Enabled hwnd=67234 folder=gobang-business-agent
+19:01:03 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:01:03 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+19:01:32 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+19:01:32 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+19:01:44 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:01:44 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+19:01:45 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\service-master
+19:01:45 SHOW setting=Enabled hwnd=133170 folder=service-master
+19:02:43 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:02:43 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+19:04:29 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:04:44 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-ad-landing
+19:04:44 SHOW setting=Enabled hwnd=133170 folder=gobang-ad-landing
+19:07:20 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+19:08:23 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+19:08:23 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+19:08:30 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:10:16 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+19:10:16 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+19:10:18 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+19:10:28 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:12:35 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:12:52 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:15:10 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:17:27 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+19:17:27 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+19:17:40 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+19:17:40 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+19:18:32 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:18:53 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+19:18:53 SHOW setting=Enabled hwnd=133170 folder=메일허브
+19:21:33 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+19:22:08 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+19:22:08 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+19:23:09 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+19:23:09 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+19:23:13 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:23:43 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+19:24:20 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-ad-landing
+19:24:20 SHOW setting=Enabled hwnd=133170 folder=gobang-ad-landing
+19:24:37 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+19:24:45 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+19:24:45 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+19:27:18 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+19:27:18 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+19:27:55 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+19:31:19 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+19:31:19 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+19:31:40 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+19:31:40 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+19:32:21 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+19:34:19 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+19:36:46 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+19:36:46 SHOW setting=Enabled hwnd=133170 folder=메일허브
+19:36:53 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:37:52 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:37:52 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+19:39:38 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+19:39:38 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+19:40:09 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+19:40:09 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+19:45:23 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+19:45:23 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+19:47:50 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+19:47:50 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+19:47:57 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+19:47:57 SHOW setting=Enabled hwnd=133170 folder=메일허브
+10:10:33 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+10:10:33 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+10:19:32 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+10:19:32 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+10:20:17 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+10:21:01 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+10:21:01 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+10:22:10 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+10:22:10 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+10:24:01 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+10:24:01 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+10:27:54 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+10:27:55 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+10:27:55 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+10:30:43 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+10:30:43 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+10:31:26 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+10:32:49 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+10:32:49 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+10:33:24 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+10:33:24 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+10:38:26 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+10:38:26 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+10:39:55 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+10:39:55 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+10:42:29 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+10:43:06 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+10:43:06 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+10:48:01 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+10:55:21 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+10:55:21 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+11:01:57 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+11:07:22 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+11:07:22 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+11:07:48 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+11:09:55 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+11:09:55 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+11:11:22 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+11:11:22 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+11:14:00 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+11:14:00 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+12:15:44 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+12:23:16 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+12:50:02 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-ad-landing\gas
+12:50:02 SHOW setting=Enabled hwnd=133170 folder=gas
+12:50:54 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+12:50:54 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+12:51:36 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-ad-landing
+12:51:36 SHOW setting=Enabled hwnd=133170 folder=gobang-ad-landing
+12:55:57 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+12:55:57 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+12:59:10 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-ad-landing
+12:59:10 SHOW setting=Enabled hwnd=133170 folder=gobang-ad-landing
+13:00:06 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+13:00:06 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+13:00:51 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+13:00:51 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+13:01:14 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+13:01:14 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+13:03:38 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+13:03:38 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+13:04:11 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+13:04:11 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+13:04:25 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+13:04:25 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+13:05:17 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+13:05:17 SHOW setting=Enabled hwnd=133170 folder=메일허브
+14:04:49 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:04:49 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+14:22:20 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-ad-landing
+14:22:20 SHOW setting=Enabled hwnd=133170 folder=gobang-ad-landing
+14:26:01 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+14:26:01 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+14:26:52 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+14:26:52 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+14:27:04 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:27:04 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+14:27:55 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:27:55 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+14:28:06 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:28:06 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+14:28:48 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-ad-landing\gas
+14:28:48 SHOW setting=Enabled hwnd=133170 folder=gas
+14:30:28 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+14:30:28 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+14:30:57 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+14:30:57 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+14:33:23 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+14:33:23 SHOW setting=Enabled hwnd=133170 folder=메일허브
+14:33:41 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:33:41 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+14:34:26 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:34:26 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+14:34:33 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-ad-landing\gas
+14:34:33 SHOW setting=Enabled hwnd=133170 folder=gas
+14:36:23 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+14:36:23 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+14:37:06 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+14:37:06 SHOW setting=Enabled hwnd=133170 folder=메일허브
+14:37:16 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+14:37:16 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+14:38:32 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:38:32 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+14:39:02 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-ad-landing\gas
+14:39:02 SHOW setting=Enabled hwnd=133170 folder=gas
+14:39:45 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:39:45 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+14:41:02 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+14:41:02 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+14:49:26 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:49:26 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+14:50:24 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:51:15 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+14:51:15 SHOW setting=Enabled hwnd=133170 folder=메일허브
+14:51:54 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:51:54 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+14:52:33 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+14:52:33 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+14:53:05 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+14:53:05 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+14:53:34 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+14:53:34 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+14:54:42 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+14:54:42 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+14:55:36 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+14:55:36 SHOW setting=Enabled hwnd=133170 folder=메일허브
+14:55:58 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+14:55:58 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+14:56:29 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:56:29 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+14:57:36 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+14:57:36 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+14:58:12 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+14:58:12 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+15:03:07 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:03:07 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+15:06:57 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:06:57 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+15:08:41 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+15:08:41 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+15:09:18 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+15:09:18 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+15:10:09 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:10:09 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+15:10:23 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+15:11:29 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+15:11:29 SHOW setting=Enabled hwnd=133170 folder=메일허브
+15:13:12 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+15:13:12 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+15:15:08 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+15:15:08 SHOW setting=Enabled hwnd=0 folder=Temp
+15:15:08 SHOW setting=Enabled hwnd=0 folder=Temp
+15:15:08 SHOW setting=Enabled hwnd=0 folder=Temp
+15:15:13 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+15:15:13 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+15:15:50 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+15:15:50 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+15:17:21 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+15:51:02 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+15:51:30 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+15:51:30 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+15:53:31 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+15:54:28 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+15:54:29 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+15:54:29 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+15:54:29 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+15:53:31 SHOW setting=Enabled hwnd=133170 folder=메일허브
+15:54:28 SHOW setting=Enabled hwnd=0 folder=Temp
+15:54:29 SHOW setting=Enabled hwnd=0 folder=Temp
+15:54:29 SHOW setting=Enabled hwnd=0 folder=Temp
+15:54:29 SHOW setting=Enabled hwnd=0 folder=Temp
+15:55:40 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:55:40 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+15:57:39 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+15:57:39 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+16:00:35 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+16:00:35 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+16:15:35 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:15:35 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:15:36 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:15:36 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:15:36 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:15:36 SHOW setting=Enabled hwnd=0 folder=Temp
+16:15:35 SHOW setting=Enabled hwnd=0 folder=Temp
+16:15:36 SHOW setting=Enabled hwnd=0 folder=Temp
+16:15:35 SHOW setting=Enabled hwnd=0 folder=Temp
+16:15:36 SHOW setting=Enabled hwnd=0 folder=Temp
+16:16:06 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:16:06 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:16:07 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:16:06 SHOW setting=Enabled hwnd=0 folder=Temp
+16:16:06 SHOW setting=Enabled hwnd=0 folder=Temp
+16:16:07 SHOW setting=Enabled hwnd=0 folder=Temp
+16:16:09 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:16:26 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+16:16:26 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+16:17:22 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+16:17:22 SHOW setting=Enabled hwnd=133170 folder=메일허브
+16:21:40 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\TouchpadToggle
+16:21:40 SHOW setting=Enabled hwnd=0 folder=TouchpadToggle
+16:25:02 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:30:25 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:34:21 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+16:34:21 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+16:36:26 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+16:36:26 SHOW setting=Enabled hwnd=133170 folder=메일허브
+16:42:04 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+16:42:04 SHOW setting=Enabled hwnd=133170 folder=메일허브
+16:44:51 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+16:44:51 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+16:54:31 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+16:54:31 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+17:04:58 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+17:04:58 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+17:07:05 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+17:07:05 SHOW setting=Enabled hwnd=133170 folder=gobang-bunyang
+17:08:05 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+17:08:05 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+17:11:30 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+17:11:30 SHOW setting=Enabled hwnd=133170 folder=메일허브
+17:13:34 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:13:34 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+17:17:00 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:17:07 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:17:00 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+17:17:07 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+17:18:14 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+17:18:14 SHOW setting=Enabled hwnd=133170 folder=AdPilot
+17:21:57 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+17:21:57 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+17:24:24 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+17:24:24 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+17:24:50 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:24:50 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+17:27:30 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+17:27:30 SHOW setting=Enabled hwnd=133170 folder=gobang-admin
+17:27:35 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:27:35 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+17:29:05 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:29:05 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+17:29:10 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+17:29:10 SHOW setting=Enabled hwnd=133170 folder=메일허브
+17:31:06 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:31:06 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+17:31:41 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+17:31:41 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+17:34:52 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+17:34:52 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+17:36:09 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:36:09 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+17:39:11 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:39:11 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+17:40:19 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+17:40:19 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+17:43:24 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:43:24 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+17:45:06 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+17:45:06 SHOW setting=Enabled hwnd=133170 folder=메일허브
+17:49:54 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:49:54 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+17:52:07 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:52:07 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+17:54:36 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:54:36 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+17:59:40 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:59:40 SHOW setting=Enabled hwnd=133170 folder=my-claude-project
+18:05:06 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+18:07:39 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+18:07:39 SHOW setting=Enabled hwnd=133170 folder=gobang-business-agent
+00:21:30 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+00:21:30 SHOW setting=Enabled hwnd=0 folder=my-claude-project
+11:04:16 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+11:04:16 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+11:05:14 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+11:05:15 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+11:05:16 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+11:05:14 SHOW setting=Enabled hwnd=0 folder=Temp
+11:05:18 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+11:05:16 SHOW setting=Enabled hwnd=0 folder=Temp
+11:06:02 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+11:24:13 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+11:24:13 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+11:24:15 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+11:24:15 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+11:26:30 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\0.CS도움앱
+11:26:30 SHOW setting=Enabled hwnd=329886 folder=0.CS도움앱
+11:41:48 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+11:41:48 SHOW setting=Enabled hwnd=329886 folder=메일허브
+12:17:25 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+12:17:25 SHOW setting=Enabled hwnd=329886 folder=my-claude-project
+12:20:05 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+12:20:06 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+12:20:26 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+12:20:27 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\9.회의록작성
+12:20:27 SHOW setting=Enabled hwnd=329886 folder=9.회의록작성
+12:23:15 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+12:23:15 SHOW setting=Enabled hwnd=329886 folder=메일허브
+12:28:01 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+12:28:01 SHOW setting=Enabled hwnd=329886 folder=메일허브
+12:28:30 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+12:28:30 SHOW setting=Enabled hwnd=329886 folder=my-claude-project
+12:32:30 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+12:32:30 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+12:37:45 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\0.CS도움앱
+12:37:45 SHOW setting=Enabled hwnd=329886 folder=0.CS도움앱
+12:38:16 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+12:38:16 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+12:41:18 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+12:41:18 SHOW setting=Enabled hwnd=329886 folder=my-claude-project
+12:44:00 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\0.CS도움앱
+12:44:00 SHOW setting=Enabled hwnd=329886 folder=0.CS도움앱
+12:50:13 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+12:50:13 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+12:53:19 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+12:53:19 SHOW setting=Enabled hwnd=329886 folder=메일허브
+12:57:51 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+12:57:51 SHOW setting=Enabled hwnd=329886 folder=my-claude-project
+14:21:21 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+14:21:21 SHOW setting=Enabled hwnd=329886 folder=메일허브
+14:22:09 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:22:09 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+14:22:14 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:24:30 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:24:30 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+14:25:09 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\9.회의록작성\회의록_input
+14:25:09 SHOW setting=Enabled hwnd=329886 folder=회의록_input
+14:26:47 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+14:31:04 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\0.CS도움앱
+14:31:04 SHOW setting=Enabled hwnd=329886 folder=0.CS도움앱
+14:31:43 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:32:19 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+14:32:19 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+14:32:59 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\9.회의록작성
+14:32:59 SHOW setting=Enabled hwnd=329886 folder=9.회의록작성
+14:33:30 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:33:30 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+14:34:16 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:34:16 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+14:35:29 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+14:35:29 SHOW setting=Enabled hwnd=329886 folder=메일허브
+14:36:50 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+14:36:50 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+14:38:10 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:39:03 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:41:55 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\9.회의록작성
+14:41:55 SHOW setting=Enabled hwnd=329886 folder=9.회의록작성
+14:41:59 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:42:40 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:42:40 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+14:44:09 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:51:55 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:51:55 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+14:52:10 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:52:10 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+14:52:57 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:52:57 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+14:54:39 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:55:35 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+14:55:35 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+14:57:18 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+14:57:18 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+14:58:42 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+14:58:42 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+15:01:24 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+15:01:24 SHOW setting=Enabled hwnd=329886 folder=my-claude-project
+15:02:40 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+15:02:40 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+15:06:14 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+15:06:14 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+15:08:28 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+15:08:28 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+16:51:10 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+16:51:10 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+16:55:30 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+16:55:30 SHOW setting=Enabled hwnd=329886 folder=메일허브
+16:58:08 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+16:58:08 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+17:08:46 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+17:08:46 SHOW setting=Enabled hwnd=329886 folder=메일허브
+17:12:29 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+17:12:29 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+18:52:26 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+18:52:26 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+18:53:20 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+18:53:20 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+19:17:53 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+19:17:53 SHOW setting=Enabled hwnd=329886 folder=메일허브
+19:18:51 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+19:18:55 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+19:19:24 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+19:19:24 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+19:22:50 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+19:22:50 SHOW setting=Enabled hwnd=329886 folder=메일허브
+19:24:25 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+19:24:25 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+19:25:10 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+19:29:34 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+19:29:34 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+19:29:57 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+19:29:57 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+19:32:08 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+19:32:08 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+19:33:01 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+19:33:01 SHOW setting=Enabled hwnd=329886 folder=메일허브
+19:33:30 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+19:33:30 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+19:34:53 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+19:34:53 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+19:38:52 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+19:38:52 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+19:39:07 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+19:39:07 SHOW setting=Enabled hwnd=329886 folder=메일허브
+19:48:17 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+19:48:17 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+19:49:05 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+19:49:05 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+19:52:57 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+19:52:57 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:01:04 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+20:01:04 SHOW setting=Enabled hwnd=329886 folder=메일허브
+20:03:46 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+20:03:46 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+20:05:11 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+20:05:11 SHOW setting=Enabled hwnd=329886 folder=메일허브
+20:07:40 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:07:40 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:08:25 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+20:08:25 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+20:11:33 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:11:33 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:12:04 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:12:04 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:16:46 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:16:46 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:16:55 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+20:16:55 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+20:18:22 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+20:18:22 SHOW setting=Enabled hwnd=329886 folder=메일허브
+20:18:45 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:18:45 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:19:59 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+20:19:59 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+20:20:43 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:20:43 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:20:55 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:20:55 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:22:09 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+20:22:09 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+20:23:36 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:23:36 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:24:00 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:24:00 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:24:47 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+20:24:47 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+20:25:03 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:25:03 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:28:15 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:28:15 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:29:01 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+20:29:01 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+20:29:25 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+20:29:25 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+20:31:20 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:31:20 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:31:57 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:31:57 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:32:07 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:32:07 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:33:16 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+20:33:16 SHOW setting=Enabled hwnd=329886 folder=AdPilot
+20:34:36 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+20:34:36 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+20:37:37 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:37:37 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:40:20 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-bunyang
+20:40:20 SHOW setting=Enabled hwnd=329886 folder=gobang-bunyang
+20:44:02 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:44:02 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:44:44 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:44:44 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:45:35 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:45:35 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:45:46 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:45:46 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+20:56:21 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+20:56:21 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+21:56:22 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+21:56:22 SHOW setting=Enabled hwnd=329886 folder=AdPilot
+22:58:02 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+22:58:02 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+10:25:39 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+10:25:39 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+10:28:52 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+10:29:09 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+10:29:09 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+10:30:26 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+10:30:26 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+10:32:17 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+10:33:29 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+10:33:29 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+10:33:29 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+10:33:29 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+10:34:18 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+10:34:18 SHOW setting=Enabled hwnd=329886 folder=메일허브
+10:51:46 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+10:51:46 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+10:56:14 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+10:56:14 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+10:59:56 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+10:59:56 SHOW setting=Enabled hwnd=329886 folder=AdPilot
+11:04:01 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+11:04:01 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+11:25:40 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+11:25:40 SHOW setting=Enabled hwnd=329886 folder=메일허브
+11:31:54 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+11:31:54 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+12:44:09 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+12:44:09 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+12:47:05 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+12:53:47 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+12:53:47 SHOW setting=Enabled hwnd=329886 folder=AdPilot
+13:00:03 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+13:00:03 SHOW setting=Enabled hwnd=329886 folder=메일허브
+13:22:01 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+13:22:01 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+13:22:03 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+13:22:03 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+13:25:02 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+13:25:02 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+13:31:05 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+13:31:05 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+13:50:34 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+13:50:34 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:27:37 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:27:37 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:28:51 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:28:51 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:30:31 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:30:31 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:32:02 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:32:02 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:32:43 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:32:43 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:35:06 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:35:06 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:36:04 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+15:36:04 SHOW setting=Enabled hwnd=329886 folder=AdPilot
+15:43:07 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+15:43:07 SHOW setting=Enabled hwnd=329886 folder=메일허브
+15:43:19 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:43:19 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:43:47 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:43:47 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:44:59 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:44:59 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:46:32 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:46:32 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:51:04 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:51:04 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:52:21 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:52:21 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:54:24 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:54:24 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:54:41 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:54:41 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+15:55:11 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+15:55:11 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:04:45 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:05:00 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+16:05:00 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:05:12 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:05:55 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+16:05:55 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:06:00 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\AdPilot
+16:06:00 SHOW setting=Enabled hwnd=329886 folder=AdPilot
+16:07:06 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+16:07:06 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:08:01 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\service-master
+16:08:01 SHOW setting=Enabled hwnd=329886 folder=service-master
+16:10:05 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:10:05 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+16:10:05 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:12:08 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+16:12:08 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:22:29 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+16:22:29 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:22:44 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+16:22:44 SHOW setting=Enabled hwnd=329886 folder=메일허브
+16:27:13 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+16:27:13 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:29:25 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+16:29:25 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:32:21 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+16:32:21 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:33:01 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+16:33:01 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:38:13 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+16:38:13 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:39:54 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\service-master\context\domains\planning
+16:39:54 SHOW setting=Enabled hwnd=329886 folder=planning
+16:42:02 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+16:42:02 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:46:33 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+16:46:33 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+16:47:27 ENTER kind=stop pwd=C:\Users\vltwn\AppData\Local\Temp
+16:48:54 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\service-master\context\domains\planning
+16:48:54 SHOW setting=Enabled hwnd=329886 folder=planning
+17:03:24 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+17:03:24 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+17:03:38 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\service-master
+17:03:38 SHOW setting=Enabled hwnd=329886 folder=service-master
+17:06:14 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+17:06:14 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+17:06:50 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+17:06:50 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+17:12:49 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+17:12:49 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+17:25:04 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+17:25:04 SHOW setting=Enabled hwnd=329886 folder=메일허브
+17:26:05 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+17:26:05 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+17:31:26 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Local\메일허브
+17:31:26 SHOW setting=Enabled hwnd=329886 folder=메일허브
+17:33:27 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+17:33:27 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+17:42:04 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:42:04 SHOW setting=Enabled hwnd=329886 folder=my-claude-project
+17:42:24 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\gobang-business-agent
+17:42:24 SHOW setting=Enabled hwnd=329886 folder=gobang-business-agent
+17:44:40 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\service-master
+17:44:40 SHOW setting=Enabled hwnd=329886 folder=service-master
+17:46:59 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+17:46:59 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+17:48:31 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\service-master
+17:48:31 SHOW setting=Enabled hwnd=329886 folder=service-master
+17:51:02 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:51:02 SHOW setting=Enabled hwnd=329886 folder=my-claude-project
+17:52:21 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+17:52:21 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+17:52:36 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:52:36 SHOW setting=Enabled hwnd=329886 folder=my-claude-project
+17:54:37 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+17:54:37 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+17:55:56 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:55:56 SHOW setting=Enabled hwnd=329886 folder=my-claude-project
+17:57:17 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+17:57:17 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+17:57:24 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+17:57:24 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+17:57:49 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\service-master
+17:57:49 SHOW setting=Enabled hwnd=329886 folder=service-master
+17:58:30 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project
+17:58:30 SHOW setting=Enabled hwnd=329886 folder=my-claude-project
+17:59:10 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+17:59:10 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+18:00:29 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+18:01:14 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+18:06:34 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
+18:06:34 SHOW setting=Enabled hwnd=329886 folder=gobang-admin
+18:07:35 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\에이전트\service-master
+18:07:35 SHOW setting=Enabled hwnd=329886 folder=service-master
+18:11:31 ENTER kind=stop pwd=C:\Users\vltwn\my-claude-project\프로젝트\for_Release\gobang-admin
