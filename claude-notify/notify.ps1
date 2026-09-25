@@ -16,23 +16,38 @@ if (-not (Test-Path $flag)) {
 
 # 1) 작업 폴더(cwd) 추출 — stdin payload 우선, 없으면 실행 디렉토리/환경변수로 폴백
 $folder = $null
+$sourcePath = $null
 $raw = ''
 # stdin 은 UTF-8 로 들어온다. 콘솔 코드페이지(한국어=CP949)에 의존하는
 # [Console]::In.ReadToEnd() 는 한글을 깨뜨리므로, 원시 바이트를 UTF-8 로 직접 읽는다.
+# 2026-09-25: 동기 ReadToEnd()는 stdin이 EOF까지 안 닫히면(훅을 띄운 쪽이 파이프를
+# 열어둔 채로 두는 경우) 영원히 블로킹해 toast도 못 띄우고 프로세스만 좀비로 남는다
+# (하루 만에 11개 누적, 각 59MB 확인). Async+타임아웃으로 최대 1.5초만 기다린다.
 try {
   $reader = New-Object System.IO.StreamReader([Console]::OpenStandardInput(), [System.Text.Encoding]::UTF8)
-  $raw = $reader.ReadToEnd()
+  $readTask = $reader.ReadToEndAsync()
+  if ($readTask.Wait(1500)) { $raw = $readTask.Result }
   $reader.Dispose()
 } catch {}
 try {
   if ($raw -and $raw.Trim()) {
     $data = $raw | ConvertFrom-Json
-    if ($data.cwd) { $folder = Split-Path $data.cwd -Leaf }
+    if ($data.cwd) { $sourcePath = $data.cwd }
   }
 } catch {}
-if (-not $folder -and $env:CLAUDE_PROJECT_DIR) { $folder = Split-Path $env:CLAUDE_PROJECT_DIR -Leaf }
-if (-not $folder) { try { $folder = Split-Path (Get-Location).Path -Leaf } catch {} }
+if (-not $sourcePath -and $env:CLAUDE_PROJECT_DIR) { $sourcePath = $env:CLAUDE_PROJECT_DIR }
+if (-not $sourcePath) { try { $sourcePath = (Get-Location).Path } catch {} }
+if ($sourcePath) { try { $folder = Split-Path $sourcePath -Leaf } catch {} }
 if (-not $folder) { $folder = 'Claude Code' }
+
+# 프로젝트 경로 정보 없이(임시폴더 등) 실행된 서브에이전트 완료는 배너 억제.
+# 2026-09-24: 병렬 서브에이전트 팬아웃 작업 중 pwd=...\AppData\Local\Temp 로
+# 26분간 383회 연속 발화 — 실제 project cwd가 헤드리스 호출에 전달 안 될 때 생김.
+$tempRoot = $env:TEMP
+if ($sourcePath -and $tempRoot -and $sourcePath.StartsWith($tempRoot, [StringComparison]::OrdinalIgnoreCase)) {
+  try { Add-Content -Path (Join-Path $PSScriptRoot 'notify.log') -Value "$ts GATE-OFF (no project context, cwd=$sourcePath)" -Encoding UTF8 } catch {}
+  return
+}
 
 # 한글 메시지는 스크립트 안에서 매핑 (명령줄 인코딩 깨짐 방지)
 $Message = switch ($Kind) {
