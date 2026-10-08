@@ -81,6 +81,14 @@ npx skills add https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
 - 평가·진단만 하고 코드는 바로 안 고칩니다. 수정은 안을 제시받고 컨펌한 뒤 진행됩니다.
 - 두 팀장은 **별개 인격**입니다. 디자인과 구현이 동시에 걸린 문제면 둘 다 호출해 각자 판단을 받으세요.
 
+#### shortform-review: 릴스 기획·평가 (이 레포 전용 커스텀 스킬)
+```
+! npx skills add gobangMkt/TOMY_PUBLIC --skill shortform-review -g
+```
+인스타 릴스를 기획하거나, 팀원·서포터즈가 만든 릴스를 평가합니다. 목적별(바이럴·유입·구독) 템플릿과 마케팅 판단 지식이 함께 들어 있습니다. 처음 설치와 도구 준비는 `shortform-review/README.md`의 붙여넣기 문구 하나로 끝납니다.
+
+- 예시: `이 릴스 평가해줘 https://www.instagram.com/reel/XXXX/` / `OO 마케팅할 건데 유입 목적 릴스 기획해줘`
+
 #### superpowers
 Claude Code에서 `/plugin` 입력 → `superpowers` 선택 후 설치
 
