@@ -85,7 +85,7 @@ npx skills add https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
 ```
 ! npx skills add gobangMkt/TOMY_PUBLIC --skill shortform-review -g
 ```
-인스타 릴스를 기획하거나, 팀원·서포터즈가 만든 릴스를 평가합니다. 목적별(바이럴·유입·구독) 템플릿과 마케팅 판단 지식이 함께 들어 있습니다. 처음 설치와 도구 준비는 `shortform-review/README.md`의 붙여넣기 문구 하나로 끝납니다.
+인스타 릴스를 기획하거나, 팀원·서포터즈가 만든 릴스를 평가합니다. 목적별(바이럴·유입·구독) 템플릿으로 판단하고, 마케팅 판단은 본인 마케팅 어시스턴트가 맡습니다(설치 때 함께 든 마케팅리드 지식을 그 어시스턴트에 더해 줌). 설치는 `shortform-review/README.md`의 붙여넣기 문구 하나로 끝납니다.
 
 - 예시: `이 릴스 평가해줘 https://www.instagram.com/reel/XXXX/` / `OO 마케팅할 건데 유입 목적 릴스 기획해줘`
 
