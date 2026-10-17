@@ -5,7 +5,9 @@
 ## 상황별로 무엇을 읽나
 | 상황 | 파일 |
 |---|---|
-| 소재 A/B, 카피·후킹, 심리 트리거, 퍼널 단계, 관여도, 콘텐츠 톤, CRM | `reference_marketing_creative_and_copy.md` |
+| 소재 A/B, 카피·후킹, 훅 작법 | `reference_marketing_creative_and_copy.md` |
+| 심리 트리거, 퍼널 단계, 관여도, 유통 채널별 상세페이지 재설계 | `reference_marketing_funnel_psychology.md` |
+| 콘텐츠 톤, CRM, 이벤트 페이지·배너 | `reference_marketing_crm_and_content_ops.md` |
 | 타겟·세그먼트, STP, USP, 고객여정·퍼널 설계, 우선순위(ICE), 예산 산정 | `reference_marketing_strategy_and_targeting.md` |
 | 채널 공통 원칙, 예산 배분, A/B 테스트, ROAS 외 지표 | `reference_marketing_paid_and_budget.md` |
 | 매체별 세팅(메타, 구글, 카카오모먼트, 애플 서치애즈, 네이버 SA) | `paid-channels/` (입구는 `paid-channels/README.md`) |
@@ -15,5 +17,5 @@
 
 ## 판단 방식
 - 상황에 맞는 파일만 읽고, 감이 아니라 해당 절을 근거로 댄다.
-- 다크패턴(가짜 마감, 과장 희소성 등)은 `creative_and_copy`의 심리 트리거 절 경계선으로 거른다.
+- 다크패턴(가짜 마감, 과장 희소성 등)은 `funnel_psychology`의 심리 트리거 절 경계선으로 거른다.
 - 이 지식에는 특정 회사의 실측 수치를 담지 않는다. 회사 수치가 필요하면 그 회사 자료에서 가져오고 여기에 적재하지 않는다.
